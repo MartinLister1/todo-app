@@ -1,5 +1,5 @@
 body {
-  background-color: #1a1a2e;
+  background-color: #323232;
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
@@ -8,13 +8,13 @@ body {
 }
 
 header h1 {
-  color: #f7c948;
+  color: #7ecb35;
   font-size: 36px;
   margin-bottom: 5px;
 }
 
 header p {
-  color: #aaaaaa;
+  color: #999999;
   margin-top: 0;
 }
 
@@ -30,22 +30,22 @@ header p {
   padding: 12px 15px;
   font-size: 15px;
   border-radius: 8px;
-  border: 2px solid #333366;
-  background-color: #16213e;
+  border: 2px solid #444444;
+  background-color: #3d3d3d;
   color: white;
   width: 300px;
 }
 
 #task-input:focus {
   outline: none;
-  border-color: #f7c948;
+  border-color: #7ecb35;
 }
 
 #add-task button {
   padding: 12px 25px;
   font-size: 15px;
   font-weight: bold;
-  background-color: #f7c948;
+  background-color: #7ecb35;
   color: black;
   border: none;
   border-radius: 8px;
@@ -53,7 +53,7 @@ header p {
 }
 
 #add-task button:hover {
-  background-color: #e0b030;
+  background-color: #6ab82a;
 }
 
 #filters {
@@ -61,9 +61,9 @@ header p {
 }
 
 .filter-btn {
-  background-color: #16213e;
-  color: #aaaaaa;
-  border: 2px solid #333366;
+  background-color: #3d3d3d;
+  color: #999999;
+  border: 2px solid #444444;
   font-size: 14px;
   font-weight: bold;
   padding: 8px 20px;
@@ -73,14 +73,14 @@ header p {
 }
 
 .filter-btn:hover {
-  border-color: #f7c948;
-  color: #f7c948;
+  border-color: #7ecb35;
+  color: #7ecb35;
 }
 
 .filter-btn.active {
-  background-color: #f7c948;
+  background-color: #7ecb35;
   color: black;
-  border-color: #f7c948;
+  border-color: #7ecb35;
 }
 
 #task-info {
@@ -88,7 +88,7 @@ header p {
 }
 
 #task-count {
-  color: #aaaaaa;
+  color: #999999;
   font-size: 14px;
 }
 
@@ -100,8 +100,8 @@ header p {
 }
 
 #task-list li {
-  background-color: #16213e;
-  border: 2px solid #333366;
+  background-color: #3d3d3d;
+  border: 2px solid #444444;
   border-radius: 10px;
   padding: 14px 15px;
   margin-bottom: 10px;
@@ -118,13 +118,13 @@ header p {
 
 li.done span {
   text-decoration: line-through;
-  color: #aaaaaa;
+  color: #777777;
 }
 
 .done-btn {
   background-color: transparent;
-  border: 2px solid #333366;
-  color: #aaaaaa;
+  border: 2px solid #444444;
+  color: #999999;
   border-radius: 6px;
   padding: 6px 12px;
   cursor: pointer;
@@ -133,19 +133,19 @@ li.done span {
 }
 
 .done-btn:hover {
-  border-color: #6bffb8;
-  color: #6bffb8;
+  border-color: #7ecb35;
+  color: #7ecb35;
 }
 
 li.done .done-btn {
-  border-color: #6bffb8;
-  color: #6bffb8;
+  border-color: #7ecb35;
+  color: #7ecb35;
 }
 
 .delete-btn {
   background-color: transparent;
-  border: 2px solid #333366;
-  color: #aaaaaa;
+  border: 2px solid #444444;
+  color: #999999;
   border-radius: 6px;
   padding: 6px 12px;
   cursor: pointer;
@@ -154,8 +154,8 @@ li.done .done-btn {
 }
 
 .delete-btn:hover {
-  border-color: #ff6b6b;
-  color: #ff6b6b;
+  border-color: #cc4444;
+  color: #cc4444;
 }
 
 /* makes it work better on phones */
@@ -165,7 +165,7 @@ li.done .done-btn {
 }
 
 footer p {
-  color: #aaaaaa;
+  color: #999999;
   font-size: 12px;
   margin-top: 30px;
 }
