@@ -1,0 +1,171 @@
+body {
+  background-color: #1a1a2e;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+header h1 {
+  color: #f7c948;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #aaaaaa;
+  margin-top: 0;
+}
+
+#add-task {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#task-input {
+  padding: 12px 15px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 2px solid #333366;
+  background-color: #16213e;
+  color: white;
+  width: 300px;
+}
+
+#task-input:focus {
+  outline: none;
+  border-color: #f7c948;
+}
+
+#add-task button {
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f7c948;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#add-task button:hover {
+  background-color: #e0b030;
+}
+
+#filters {
+  margin-bottom: 10px;
+}
+
+.filter-btn {
+  background-color: #16213e;
+  color: #aaaaaa;
+  border: 2px solid #333366;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.filter-btn:hover {
+  border-color: #f7c948;
+  color: #f7c948;
+}
+
+.filter-btn.active {
+  background-color: #f7c948;
+  color: black;
+  border-color: #f7c948;
+}
+
+#task-info {
+  margin-bottom: 15px;
+}
+
+#task-count {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#task-list li {
+  background-color: #16213e;
+  border: 2px solid #333366;
+  border-radius: 10px;
+  padding: 14px 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+#task-list li span {
+  flex: 1;
+  font-size: 15px;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
+
+.done-btn {
+  background-color: transparent;
+  border: 2px solid #333366;
+  color: #aaaaaa;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.done-btn:hover {
+  border-color: #6bffb8;
+  color: #6bffb8;
+}
+
+li.done .done-btn {
+  border-color: #6bffb8;
+  color: #6bffb8;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 2px solid #333366;
+  color: #aaaaaa;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  border-color: #ff6b6b;
+  color: #ff6b6b;
+}
+
+/* makes it work better on phones */
+@media (max-width: 500px) {
+  h1 { font-size: 28px; }
+  #task-input { width: 180px; }
+}
+
+footer p {
+  color: #aaaaaa;
+  font-size: 12px;
+  margin-top: 30px;
+}
