@@ -1,19 +1,21 @@
 # To Do List
-Built by Martin Lister | HTML, CSS & JavaScript
 
-A to do list app I built to practice JavaScript arrays and DOM manipulation.
+A to do list app where users can add, complete and delete tasks.
 
-## How to use
-Download the files and open index.html in your browser - no install needed!
-
-## Features
-- Add tasks by typing and pressing Enter or clicking Add
-- Mark tasks as done
-- Delete tasks
-- Filter by All, Active or Done
-- Shows how many tasks are left
+Includes filters for all, active and completed tasks with a counter 
+showing how many tasks are remaining. Built with separate HTML, CSS 
+and JavaScript files and made mobile friendly using media queries.
 
 ## Built with
 - HTML
 - CSS
 - JavaScript
+
+## Live demo
+https://martinlister1.github.io/todo-app
+
+## Run locally
+Just open index.html in your browser — no setup needed.
+
+## Author
+Martin Lister
